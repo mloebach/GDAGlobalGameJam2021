@@ -19,7 +19,7 @@ public class CloseConfirmMenu : MonoBehaviour
 
     public void endScene(){
         //string scriptToSend = GetNaniScript(gameStateSystem.gameLevel);
-        var switchCommand = new SwitchToVNMode {ScriptName = "EndScene"};
+        var switchCommand = new SwitchToVNMode {ScriptName = "DeductionScene"};
 	    switchCommand.ExecuteAsync().Forget();
         
     }

@@ -1,3 +1,57 @@
+@set DragonPayout=0
+
+@set DragonPayout=DragonPayout+50 if:DragonName=="World Ender K"
+@set DragonPayout=DragonPayout+50 if:DragonSet=="Meteor Strike"
+@set DragonPayout=DragonPayout+50 if:DragonYear=="1991"
+@set DragonPayout=DragonPayout+50 if:DragonTier=="B-Tier"
+@set DragonPayout=DragonPayout+50 if:DragonClass=="Kobold"
+
+@if DragonPayout>=250
+    @set DragonPayout=DragonPayout+250
+@endif
+
+@set MaidenPayout=0
+
+@set MaidenPayout=MaidenPayout+50 if:MaidenName=="Water Maiden"
+@set MaidenPayout=MaidenPayout+50 if:MaidenSet=="Red Island"
+@set MaidenPayout=MaidenPayout+50 if:MaidenYear=="1993"
+@set MaidenPayout=MaidenPayout+50 if:MaidenTier=="F-Tier"
+@set MaidenPayout=MaidenPayout+50 if:MaidenClass=="Spirit"
+
+@if MaidenPayout>=250
+    @set MaidenPayout=MaidenPayout+250
+@endif
+
+@set FrogPayout=0
+
+@set FrogPayout=FrogPayout+50 if:FrogName=="Dark Samurai"
+@set FrogPayout=FrogPayout+50 if:FrogSet=="Dragon Crystal"
+@set FrogPayout=FrogPayout+50 if:FrogYear=="1992"
+@set FrogPayout=FrogPayout+50 if:FrogTier=="A-Tier"
+@set FrogPayout=FrogPayout+50 if:FrogClass=="Slime"
+
+@if FrogPayout>=250
+    @set FrogPayout=FrogPayout+250
+@endif
+
+@set WolfPayout=0
+
+@set WolfPayout=WolfPayout+50 if:WolfName=="Cyberbot"
+@set WolfPayout=WolfPayout+50 if:WolfSet=="Dark Kingdom"
+@set WolfPayout=WolfPayout+50 if:WolfYear=="1994"
+@set WolfPayout=WolfPayout+50 if:WolfTier=="S-Tier"
+@set WolfPayout=WolfPayout+50 if:WolfClass=="Warlock"
+
+@if WolfPayout>=250
+    @set WolfPayout=wolfPayout+250
+@endif
+
+@set FinalPayout=WolfPayout+FrogPayout+MaidenPayout+DragonPayout
+
+@if FinalPayout>=2000
+    @set FinalPayout=FinalPayout+8000
+@endif
+
 @back SampleBG
 
 @printer Wide
@@ -6,7 +60,15 @@ One week later...
 
 @printer Chat 
 
-MC: I have lost all my stocks in FrogCoin.
+MC: Dragon: {DragonPayout}
+
+MC: Wolf: {WolfPayout}
+
+MC: Maiden: {MaidenPayout}
+
+MC: Frog: {FrogPayout}
+
+MC: Total Payout: {FinalPayout}
 
 Friend: Bummer.
 

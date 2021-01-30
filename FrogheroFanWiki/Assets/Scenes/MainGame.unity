@@ -490,7 +490,7 @@ RectTransform:
   m_GameObject: {fileID: 116263253}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.345022, y: 0.70067, z: 2.8044453}
+  m_LocalScale: {x: 0.28291804, y: 0.5745494, z: 2.2996452}
   m_Children: []
   m_Father: {fileID: 930819135}
   m_RootOrder: 0
@@ -519,7 +519,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Have enough information?
+  m_text: "Do you have enough \ninformation on the cards?\n(You cannot be able to
+    return to the wiki later.)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -528,8 +529,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4280296989
+  m_fontColor: {r: 0.11320755, g: 0.1509434, b: 0.123989224, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -546,8 +547,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -582,7 +583,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -26.48646, y: 0, z: -23.746506, w: -26.99637}
+  m_margin: {x: -57.278202, y: 0, z: -55.60017, w: -26.99637}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2525,7 +2526,7 @@ RectTransform:
   m_GameObject: {fileID: 930819134}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4, y: 1.899114, z: 1}
+  m_LocalScale: {x: 5.008, y: 2.3776908, z: 1.252}
   m_Children:
   - {fileID: 116263254}
   - {fileID: 1241392474}
@@ -4303,8 +4304,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1241392478}
-        m_MethodName: FromWikiToDeduction
+      - m_Target: {fileID: 1241392479}
+        m_MethodName: endScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

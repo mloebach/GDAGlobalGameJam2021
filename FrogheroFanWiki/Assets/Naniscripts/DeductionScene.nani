@@ -1,2 +1,309 @@
 
+#Intro
+
+@back BlackBG
+
+@set cardX=75
+@set cardY=28
+
+@set choiceX=-280
+@set choiceY1=300
+@set choiceSep=100
+
+@set choiceY2=choiceY1-choiceSep
+@set choiceY3=choiceY2-choiceSep
+@set choiceY4=choiceY3-choiceSep
+
+@wait 1
+
+@back EBay.Blinds time:2.5
+
+@printer Wide
+
+MC: Alright, I think I have the information I need?
+
+MC: Let's see if I can sell these cards now.
+
+MC: Information...
+
+MC: First Uuuuuup....
+
+#Dragon
+
+@char Card.Dragon pos:{cardX},{cardY}
+
+MC: This card...
+
+MC: Is the one named:
+
+@choice "Cyberbot" handler:ButtonArea pos:{choiceX},{choiceY1} set:DragonName="Cyberbot"
+@choice "Dark Samurai" handler:ButtonArea pos:{choiceX},{choiceY2} set:DragonName="Dark Samurai"
+@choice "World Ender K" handler:ButtonArea pos:{choiceX},{choiceY3} set:DragonName="World Ender K"
+@choice "Water Maiden" handler:ButtonArea pos:{choiceX},{choiceY4} set:DragonName="Water Maiden"
+
 @stop
+
+MC: It was printed in:
+
+@choice "1991" handler:ButtonArea pos:{choiceX},{choiceY1} set:DragonYear="1991"
+@choice "1992" handler:ButtonArea pos:{choiceX},{choiceY2} set:DragonYear="1992"
+@choice "1993" handler:ButtonArea pos:{choiceX},{choiceY3} set:DragonYear="1993"
+@choice "1994" handler:ButtonArea pos:{choiceX},{choiceY4} set:DragonYear="1994"
+
+@stop
+
+MC: It was printed in this Set:
+
+@choice "Meteor Strike" handler:ButtonArea pos:{choiceX},{choiceY1} set:DragonSet="Meteor Strike"
+@choice "Red Island" handler:ButtonArea pos:{choiceX},{choiceY2} set:DragonSet="Red Island"
+@choice "Dark Kingdom" handler:ButtonArea pos:{choiceX},{choiceY3} set:DragonSet="Dark Kingdom"
+@choice "Dragon Crystal" handler:ButtonArea pos:{choiceX},{choiceY4} set:DragonSet="Dragon Crystal"
+
+@stop
+
+MC: It is in the Class of:
+
+@choice "Slime" handler:ButtonArea pos:{choiceX},{choiceY1} set:DragonClass="Slime"
+@choice "Kobold" handler:ButtonArea pos:{choiceX},{choiceY2} set:DragonClass="Kobold"
+@choice "Spirit" handler:ButtonArea pos:{choiceX},{choiceY3} set:DragonClass="Spirit"
+@choice "Warlock" handler:ButtonArea pos:{choiceX},{choiceY4} set:DragonClass="Warlock"
+
+@stop
+
+MC: Its position in the tier list is:
+
+@choice "S-Tier" handler:ButtonArea pos:{choiceX},{choiceY1} set:DragonTier="S-Tier"
+@choice "A-Tier" handler:ButtonArea pos:{choiceX},{choiceY2} set:DragonTier="A-Tier"
+@choice "B-Tier" handler:ButtonArea pos:{choiceX},{choiceY3} set:DragonTier="B-Tier"
+@choice "F-Tier" handler:ButtonArea pos:{choiceX},{choiceY4} set:DragonTier="F-Tier"
+
+@stop
+
+This card is the {DragonTier} {DragonClass} {DragonName} printed in the {DragonYear} {DragonSet} set.
+Is that right?
+
+@choice "Yes" handler:ButtonArea pos:{choiceX},{choiceY2}
+@choice "No" handler:ButtonArea pos:{choiceX},{choiceY3} goto:.Dragon
+
+@stop
+
+#OneToTwo
+
+@hideChars
+
+MC: aaaaand submited.
+
+MC: Next....
+
+@char Card.Magician pos:{cardX},{cardY}
+
+MC: This card.
+
+#Magician
+
+MC: This card named:
+
+@choice "Cyberbot" handler:ButtonArea pos:{choiceX},{choiceY1} set:MaidenName="Cyberbot"
+@choice "Dark Samurai" handler:ButtonArea pos:{choiceX},{choiceY2} set:MaidenName="Dark Samurai"
+@choice "World Ender K" handler:ButtonArea pos:{choiceX},{choiceY3} set:MaidenName="World Ender K"
+@choice "Water Maiden" handler:ButtonArea pos:{choiceX},{choiceY4} set:MaidenName="Water Maiden"
+
+@stop
+
+MC: It was printed in:
+
+@choice "1991" handler:ButtonArea pos:{choiceX},{choiceY1} set:MaidenYear="1991"
+@choice "1992" handler:ButtonArea pos:{choiceX},{choiceY2} set:MaidenYear="1992"
+@choice "1993" handler:ButtonArea pos:{choiceX},{choiceY3} set:MaidenYear="1993"
+@choice "1994" handler:ButtonArea pos:{choiceX},{choiceY4} set:MaidenYear="1994"
+
+@stop
+
+MC: It was printed in this Set:
+
+@choice "Meteor Strike" handler:ButtonArea pos:{choiceX},{choiceY1} set:MaidenSet="Meteor Strike"
+@choice "Red Island" handler:ButtonArea pos:{choiceX},{choiceY2} set:MaidenSet="Red Island"
+@choice "Dark Kingdom" handler:ButtonArea pos:{choiceX},{choiceY3} set:MaidenSet="Dark Kingdom"
+@choice "Dragon Crystal" handler:ButtonArea pos:{choiceX},{choiceY4} set:MaidenSet="Dragon Crystal"
+
+@stop
+
+MC: It is in the Class of:
+
+@choice "Slime" handler:ButtonArea pos:{choiceX},{choiceY1} set:MaidenClass="Slime"
+@choice "Kobold" handler:ButtonArea pos:{choiceX},{choiceY2} set:MaidenClass="Kobold"
+@choice "Spirit" handler:ButtonArea pos:{choiceX},{choiceY3} set:MaidenClass="Spirit"
+@choice "Warlock" handler:ButtonArea pos:{choiceX},{choiceY4} set:MaidenClass="Warlock"
+
+@stop
+
+MC: Its position in the tier list is:
+
+@choice "S-Tier" handler:ButtonArea pos:{choiceX},{choiceY1} set:MaidenTier="S-Tier"
+@choice "A-Tier" handler:ButtonArea pos:{choiceX},{choiceY2} set:MaidenTier="A-Tier"
+@choice "B-Tier" handler:ButtonArea pos:{choiceX},{choiceY3} set:MaidenTier="B-Tier"
+@choice "F-Tier" handler:ButtonArea pos:{choiceX},{choiceY4} set:MaidenTier="F-Tier"
+
+@stop
+
+This card is the {MaidenTier} {MaidenClass} {MaidenName} printed in the {MaidenYear} {MaidenSet} set.
+Is that right?
+
+@choice "Yes" handler:ButtonArea pos:{choiceX},{choiceY2}
+@choice "No" handler:ButtonArea pos:{choiceX},{choiceY3} goto:.Magician
+
+@stop
+
+#TwoToThree
+
+@hideChars
+
+MC: Done.
+
+MC: Halfway there.
+
+MC: Next up is...
+
+@char Card.Werewolf pos:{cardX},{cardY}
+
+MC: This big guy.
+
+#Werewolf
+
+MC: This card named:
+
+@choice "Cyberbot" handler:ButtonArea pos:{choiceX},{choiceY1} set:WolfName="Cyberbot"
+@choice "Dark Samurai" handler:ButtonArea pos:{choiceX},{choiceY2} set:WolfName="Dark Samurai"
+@choice "World Ender K" handler:ButtonArea pos:{choiceX},{choiceY3} set:WolfName="World Ender K"
+@choice "Water Maiden" handler:ButtonArea pos:{choiceX},{choiceY4} set:WolfName="Water Maiden"
+
+@stop
+
+MC: It was printed in:
+
+@choice "1991" handler:ButtonArea pos:{choiceX},{choiceY1} set:WolfYear="1991"
+@choice "1992" handler:ButtonArea pos:{choiceX},{choiceY2} set:WolfYear="1992"
+@choice "1993" handler:ButtonArea pos:{choiceX},{choiceY3} set:WolfYear="1993"
+@choice "1994" handler:ButtonArea pos:{choiceX},{choiceY4} set:WolfYear="1994"
+
+@stop
+
+MC: It was printed in this Set:
+
+@choice "Meteor Strike" handler:ButtonArea pos:{choiceX},{choiceY1} set:WolfSet="Meteor Strike"
+@choice "Red Island" handler:ButtonArea pos:{choiceX},{choiceY2} set:WolfSet="Red Island"
+@choice "Dark Kingdom" handler:ButtonArea pos:{choiceX},{choiceY3} set:WolfSet="Dark Kingdom"
+@choice "Dragon Crystal" handler:ButtonArea pos:{choiceX},{choiceY4} set:WolfSet="Dragon Crystal"
+
+@stop
+
+MC: It is in the Class of:
+
+@choice "Slime" handler:ButtonArea pos:{choiceX},{choiceY1} set:WolfClass="Slime"
+@choice "Kobold" handler:ButtonArea pos:{choiceX},{choiceY2} set:WolfClass="Kobold"
+@choice "Spirit" handler:ButtonArea pos:{choiceX},{choiceY3} set:WolfClass="Spirit"
+@choice "Warlock" handler:ButtonArea pos:{choiceX},{choiceY4} set:WolfClass="Warlock"
+
+@stop
+
+MC: Its position in the tier list is:
+
+@choice "S-Tier" handler:ButtonArea pos:{choiceX},{choiceY1} set:WolfTier="S-Tier"
+@choice "A-Tier" handler:ButtonArea pos:{choiceX},{choiceY2} set:WolfTier="A-Tier"
+@choice "B-Tier" handler:ButtonArea pos:{choiceX},{choiceY3} set:WolfTier="B-Tier"
+@choice "F-Tier" handler:ButtonArea pos:{choiceX},{choiceY4} set:WolfTier="F-Tier"
+
+@stop
+
+This card is the {WolfTier} {WolfClass} {WolfName} printed in the {WolfYear} {WolfSet} set.
+Is that right?
+
+@choice "Yes" handler:ButtonArea pos:{choiceX},{choiceY2}
+@choice "No" handler:ButtonArea pos:{choiceX},{choiceY3} goto:.Werewolf
+@stop
+
+#ThreeToFour
+
+@hideChars
+
+MC: Click.
+
+MC: Final Card. By process of elimination...
+
+@char Card.Frog pos:{cardX},{cardY}
+
+MC: Frog boy.
+
+#Frog
+
+MC: This card named:
+
+@choice "Cyberbot" handler:ButtonArea pos:{choiceX},{choiceY1} set:FrogName="Cyberbot"
+@choice "Dark Samurai" handler:ButtonArea pos:{choiceX},{choiceY2} set:FrogName="Dark Samurai"
+@choice "World Ender K" handler:ButtonArea pos:{choiceX},{choiceY3} set:FrogName="World Ender K"
+@choice "Water Maiden" handler:ButtonArea pos:{choiceX},{choiceY4} set:FrogName="Water Maiden"
+
+@stop
+
+MC: It was printed in:
+
+@choice "1991" handler:ButtonArea pos:{choiceX},{choiceY1} set:FrogYear="1991"
+@choice "1992" handler:ButtonArea pos:{choiceX},{choiceY2} set:FrogYear="1992"
+@choice "1993" handler:ButtonArea pos:{choiceX},{choiceY3} set:FrogYear="1993"
+@choice "1994" handler:ButtonArea pos:{choiceX},{choiceY4} set:FrogYear="1994"
+
+@stop
+
+MC: It was printed in this Set:
+
+@choice "Meteor Strike" handler:ButtonArea pos:{choiceX},{choiceY1} set:FrogSet="Meteor Strike"
+@choice "Red Island" handler:ButtonArea pos:{choiceX},{choiceY2} set:FrogSet="Red Island"
+@choice "Dark Kingdom" handler:ButtonArea pos:{choiceX},{choiceY3} set:FrogSet="Dark Kingdom"
+@choice "Dragon Crystal" handler:ButtonArea pos:{choiceX},{choiceY4} set:FrogSet="Dragon Crystal"
+
+@stop
+
+MC: It is in the Class of:
+
+@choice "Slime" handler:ButtonArea pos:{choiceX},{choiceY1} set:FrogClass="Slime"
+@choice "Kobold" handler:ButtonArea pos:{choiceX},{choiceY2} set:FrogClass="Kobold"
+@choice "Spirit" handler:ButtonArea pos:{choiceX},{choiceY3} set:FrogClass="Spirit"
+@choice "Warlock" handler:ButtonArea pos:{choiceX},{choiceY4} set:FrogClass="Warlock"
+
+@stop
+
+MC: Its position in the tier list is:
+
+@choice "S-Tier" handler:ButtonArea pos:{choiceX},{choiceY1} set:FrogTier="S-Tier"
+@choice "A-Tier" handler:ButtonArea pos:{choiceX},{choiceY2} set:FrogTier="A-Tier"
+@choice "B-Tier" handler:ButtonArea pos:{choiceX},{choiceY3} set:FrogTier="B-Tier"
+@choice "F-Tier" handler:ButtonArea pos:{choiceX},{choiceY4} set:FrogTier="F-Tier"
+
+@stop
+
+This card is the {FrogTier} {FrogClass} {FrogName} printed in the {FrogYear} {FrogSet} set.
+Is that right?
+
+@choice "Yes" handler:ButtonArea pos:{choiceX},{choiceY2}
+@choice "No" handler:ButtonArea pos:{choiceX},{choiceY3} goto:.Frog
+
+@stop
+
+@hideChars
+
+MC: Aaaaand done.
+
+MC: All the pages are up.
+
+MC: And noooow. We wait.
+
+@hidePrinter
+
+@wait 1
+
+@back BlackBG.CloudReveal
+
+@wait 3
+
+@goto EndScene
+

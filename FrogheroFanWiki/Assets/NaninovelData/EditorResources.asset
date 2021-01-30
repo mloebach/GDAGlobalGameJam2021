@@ -176,8 +176,14 @@ MonoBehaviour:
     - Name: DeductionScene
       PathPrefix: Scripts
       Guid: e9498e215d6c39f4fb43b51a5840853b
+    - Name: DeductionScene 1
+      PathPrefix: Scripts
+      Guid: 1d6050703764cb945bba086db634346e
   - Id: Backgrounds/c2790ac4-8742-4cdc-a066-29cb50c1d287
     Resources:
+    - Name: EBay
+      PathPrefix: Backgrounds/MainBackground
+      Guid: 2ce061ba4c5ab2e4e8cf730c35a80ce3
     - Name: SampleBG
       PathPrefix: Backgrounds/MainBackground
       Guid: a7b976e678f8949469d8113709ebf980
@@ -205,3 +211,22 @@ MonoBehaviour:
     - Name: Friend/Default
       PathPrefix: CharacterAvatars
       Guid: d15c164ea3cc93d42988005729afd1ff
+  - Id: Characters/9eff6b17-d853-430c-82a7-075cd78df75b
+    Resources:
+    - Name: Magician
+      PathPrefix: Characters/Card
+      Guid: df7d6a7764376284ba1acd7250db817e
+    - Name: Frog
+      PathPrefix: Characters/Card
+      Guid: 85354c32fa977b0418c06bca65e24ba9
+    - Name: Dragon
+      PathPrefix: Characters/Card
+      Guid: 06da7976033519145819a8400eec0c23
+    - Name: Werewolf
+      PathPrefix: Characters/Card
+      Guid: 28d6576c44a4cfa478c4c59779a3a2a9
+  - Id: Unlockables
+    Resources:
+    - Name: 
+      PathPrefix: Unlockables
+      Guid: 

@@ -12,4 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050d909da8f293c4cac3351071715b4d, type: 3}
   m_Name: CustomVariablesConfiguration
   m_EditorClassIdentifier: 
-  PredefinedVariables: []
+  PredefinedVariables:
+  - name: DragonName
+    value: '""'
+  - name: DragonTier
+    value: '""'
+  - name: DragonYear
+    value: '""'
+  - name: DragonSet
+    value: '""'
+  - name: DragonClass
+    value: '""'
+  - name: MaidenClass
+    value: '""'
+  - name: MaidenSet
+    value: '""'
+  - name: MaidenYear
+    value: '""'
+  - name: MaidenName
+    value: '""'
+  - name: MaidenTier
+    value: '""'
+  - name: FrogName
+    value: '""'
+  - name: FrogTier
+    value: '""'
+  - name: FrogYear
+    value: '""'
+  - name: FrogSet
+    value: '""'
+  - name: FrogClass
+    value: '""'
+  - name: WolfName
+    value: '""'
+  - name: WolfTier
+    value: '""'
+  - name: WolfSet
+    value: '""'
+  - name: WolfYear
+    value: '""'
+  - name: WolfClass
+    value: '""'
+  - name: FinalPayout
+    value: 0
