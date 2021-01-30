@@ -1,0 +1,19 @@
+@back SampleBG
+
+@printer Wide
+
+One week later...
+
+@printer Chat 
+
+MC: I have lost all my stocks in FrogCoin.
+
+Friend: Bummer.
+
+;@goto TitleScreen
+
+@hideAll
+
+@title
+
+@stop

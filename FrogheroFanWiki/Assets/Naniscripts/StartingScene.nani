@@ -1,0 +1,45 @@
+@back BlackBG
+
+@back SampleBG.Waterfall time:2
+
+@wait 0.5
+
+@printer Chat 
+
+MC: just invested everything i own into FrogCoin
+Friend: woah
+MC: i found these confusing frog cards
+MC: i'm gonna be rich!
+Friend: ok bye
+
+@hidePrinter
+
+@wait 1
+
+@back MCHouse.Crossfade time:1.5
+
+@printer Wide
+
+@wait 0.5
+
+;@char MC
+
+MC: hmmmm....
+
+MC: i better study these froggy things if i want any chance of being RICH
+
+MC: let's see....there's a fan wiki....
+
+@hidePrinter
+;hide MC
+
+@wait 0.5
+
+@back BlackBG.Shrink time:2
+
+@unlock CG
+@unlock Tips
+
+@wikiStart
+
+@stop
