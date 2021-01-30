@@ -3,7 +3,7 @@
 
 @back BlackBG
 
-@set cardX=75
+@set cardX=70
 @set cardY=28
 
 @set choiceX=-280
@@ -301,7 +301,7 @@ MC: And noooow. We wait.
 
 @wait 1
 
-@back BlackBG.CloudReveal
+@back BlackBG.CloudReveal time:1.5
 
 @wait 3
 

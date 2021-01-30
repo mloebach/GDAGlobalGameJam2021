@@ -30,10 +30,12 @@ MC: i better study these froggy things if i want any chance of being RICH
 
 MC: let's see....there's a fan wiki....
 
+MC: FrogHero.Wiki.Net.....
+
 @hidePrinter
 ;hide MC
 
-@wait 0.5
+@wait 2
 
 @back BlackBG.Shrink time:2
 

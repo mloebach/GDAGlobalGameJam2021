@@ -49,6 +49,10 @@
 @set FinalPayout=WolfPayout+FrogPayout+MaidenPayout+DragonPayout
 
 @if FinalPayout>=2000
+    @set WolfPayout=WolfPayout+2000
+    @set MaidenPayout=MaidenPayout+2000
+    @set DragaonPayout=DragonPayout+2000
+    @set FrogWolfPayout=FrogPayout+2000
     @set FinalPayout=FinalPayout+8000
 @endif
 

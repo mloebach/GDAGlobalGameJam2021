@@ -183,10 +183,10 @@ MonoBehaviour:
     Resources:
     - Name: EBay
       PathPrefix: Backgrounds/MainBackground
-      Guid: 2ce061ba4c5ab2e4e8cf730c35a80ce3
+      Guid: 8cb5e5fe07d73d148ae8dec31413c8ed
     - Name: SampleBG
       PathPrefix: Backgrounds/MainBackground
-      Guid: a7b976e678f8949469d8113709ebf980
+      Guid: c83102a55e03f104bb0026c048ba60c5
     - Name: TitleScreen
       PathPrefix: Backgrounds/MainBackground
       Guid: b33d13f61759d1d4e95563af9159bb95
@@ -195,7 +195,7 @@ MonoBehaviour:
       Guid: 17a48aed972dad84dbcea4ab6edc9cf7
     - Name: MCHouse
       PathPrefix: Backgrounds/MainBackground
-      Guid: af5db4933e667264e91328d59be4d1d6
+      Guid: 2e1107f1944abef47b204f8b5850fb16
   - Id: Characters/83313583-6dce-4d78-b39f-b7a1806b1153
     Resources:
     - Name: Base
