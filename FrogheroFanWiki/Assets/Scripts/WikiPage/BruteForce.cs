@@ -14,14 +14,14 @@ public class BruteForce : MonoBehaviour
     [SerializeField] Sprite newSprite;
 
     public void LoadFontUpdate(){
-        ArticleTitle.text = "Font Printing Error";
-        DescText.text = "...Due to the rising cost of Ink in at the end of 1991, Launchpad changed the font of the cards in 1992.";
-        //ArticleImage.sprite = 
+        ArticleTitle.text = "Glitter Printing Error";
+        DescText.text = "...Due to the rising cost of glitter in at the end of 1991, Launchpad had to change how holographic cards worked in 1992. This card, made before the change, is an example of a holographic with glitter.";
+        ArticleImage.sprite = newSprite;
     }
 
     public void LoadDarkKingdom(){
         ArticleTitle.text = "Dark Kingdom (Set)";
-        DescText.text = "...Dark Kingdom first appeared in 1991, but it was popular enough to get a revival in 1994. These two runs use the same cardback. The revival of Dark Kingdom was ushered in with the death of Lady Seraphi in the lore.";
+        DescText.text = "...Dark Kingdom first appeared in 1991, but it was popular enough to get a revival in 1994. These two runs use the same cardback. The revival of Dark Kingdom was ushered in with the disappearence of Lady Seraphi in the lore.";
         //ArticleImage.sprite = 
     }
 
@@ -45,13 +45,13 @@ public class BruteForce : MonoBehaviour
 
     public void LoadDec1994Tiers(){
         ArticleTitle.text = "EDITORIAL: December 1994 Tier List";
-        DescText.text = "FAN COMMENT: 'Geez, power creep is out of control. Froggy Armor Dude is now better than every card in B-Tier and below. Did the balance team disappear with Seraphi, LOL'";
+        DescText.text = "FAN COMMENT: 'Geez, power creep is out of control. Froggy Armor Dude is now better than every card in B-Tier and below. Cyberbot in S-Tier is already rough, did the balance team disappear with Seraphi, LOL'";
         ArticleImage.sprite = newSprite;
     }
 
     public void LoadWaterMaiden(){
         ArticleTitle.text = "Water Maiden (Card)";
-        DescText.text = "...Water Maiden is based of off a Beloved Character in the lore. She was created to buff cards in previous Expansions, such as World Ender K. To Use Water Maiden...";
+        DescText.text = "...Water Maiden is based of off a character beloved by fans in the lore. She was created to buff cards in previous Expansions, such as World Ender K. To Use Water Maiden...";
         ArticleImage.sprite = newSprite;
     }
 
@@ -63,7 +63,7 @@ public class BruteForce : MonoBehaviour
 
     public void LoadDarkSamurai(){
         ArticleTitle.text = "Dark Samurai (Card)";
-        DescText.text = "...Dark Samurai is used in a OTK Combo deck which aims to end the game in one turn. To implement it...";
+        DescText.text = "...Dark Samurai is used in a One Turn Kill Combo deck which aims to end the game in one turn. To implement it...";
         ArticleImage.sprite = newSprite;
     }
 
@@ -87,7 +87,7 @@ public class BruteForce : MonoBehaviour
 
     public void LoadWarlockClass(){
         ArticleTitle.text = "Warlock (Class)";
-        DescText.text = "...the Warlock is exclusive to the initial release of Dark Kingdom set as well as the revival in 1994.";
+        DescText.text = "...the Warlock class is exclusive to the initial release of Dark Kingdom set as well as the revival in 1994.";
         ArticleImage.sprite = newSprite;
     }
 
@@ -99,7 +99,7 @@ public class BruteForce : MonoBehaviour
 
     public void LoadLadySeraphi(){
         ArticleTitle.text = "Lady Seraphi";
-        DescText.text = "...In the lead up to the Dark Kingdom reboot, Launchpad launched an ad campaign where Lady Seraphi bravely sacrificed herself for the heroes and is sent to the Shadow Pond. Human Seraphi hasn't been officially revived in any new expansions, though Spectral Seraphi has.";
+        DescText.text = "...In the lead up to the Dark Kingdom reboot, Launchpad launched an ad campaign where Lady Seraphi bravely sacrificed herself for the heroes and is sent to the Shadow Pond. Human Seraphi hasn't had a card in any new expansions, though Spectral Princess Seraphi has.";
         ArticleImage.sprite = newSprite;
     }
     public void LoadFrogHeroes(){

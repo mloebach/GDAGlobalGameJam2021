@@ -79,7 +79,7 @@ MC: Its position in the tier list is:
 @choice "S-Tier" handler:ButtonArea pos:{choiceX},{choiceY1} set:DragonTier="S-Tier"
 @choice "A-Tier" handler:ButtonArea pos:{choiceX},{choiceY2} set:DragonTier="A-Tier"
 @choice "B-Tier" handler:ButtonArea pos:{choiceX},{choiceY3} set:DragonTier="B-Tier"
-@choice "F-Tier" handler:ButtonArea pos:{choiceX},{choiceY4} set:DragonTier="F-Tier"
+@choice "C-Tier" handler:ButtonArea pos:{choiceX},{choiceY4} set:DragonTier="C-Tier"
 
 @stop
 
@@ -147,7 +147,7 @@ MC: Its position in the tier list is:
 @choice "S-Tier" handler:ButtonArea pos:{choiceX},{choiceY1} set:MaidenTier="S-Tier"
 @choice "A-Tier" handler:ButtonArea pos:{choiceX},{choiceY2} set:MaidenTier="A-Tier"
 @choice "B-Tier" handler:ButtonArea pos:{choiceX},{choiceY3} set:MaidenTier="B-Tier"
-@choice "F-Tier" handler:ButtonArea pos:{choiceX},{choiceY4} set:MaidenTier="F-Tier"
+@choice "C-Tier" handler:ButtonArea pos:{choiceX},{choiceY4} set:MaidenTier="C-Tier"
 
 @stop
 @sfx Mouse1
@@ -217,7 +217,7 @@ MC: Its position in the tier list is:
 @choice "S-Tier" handler:ButtonArea pos:{choiceX},{choiceY1} set:WolfTier="S-Tier"
 @choice "A-Tier" handler:ButtonArea pos:{choiceX},{choiceY2} set:WolfTier="A-Tier"
 @choice "B-Tier" handler:ButtonArea pos:{choiceX},{choiceY3} set:WolfTier="B-Tier"
-@choice "F-Tier" handler:ButtonArea pos:{choiceX},{choiceY4} set:WolfTier="F-Tier"
+@choice "C-Tier" handler:ButtonArea pos:{choiceX},{choiceY4} set:WolfTier="C-Tier"
 
 @stop
 @sfx Mouse1
@@ -283,7 +283,7 @@ MC: Its position in the tier list is:
 @choice "S-Tier" handler:ButtonArea pos:{choiceX},{choiceY1} set:FrogTier="S-Tier"
 @choice "A-Tier" handler:ButtonArea pos:{choiceX},{choiceY2} set:FrogTier="A-Tier"
 @choice "B-Tier" handler:ButtonArea pos:{choiceX},{choiceY3} set:FrogTier="B-Tier"
-@choice "F-Tier" handler:ButtonArea pos:{choiceX},{choiceY4} set:FrogTier="F-Tier"
+@choice "C-Tier" handler:ButtonArea pos:{choiceX},{choiceY4} set:FrogTier="C-Tier"
 
 @stop
 @sfx Mouse1

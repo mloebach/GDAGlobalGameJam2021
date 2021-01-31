@@ -161,6 +161,7 @@ MC: That's a total payout of ${FinalPayout}.
     MC: What is Frog Heroes even about...?
 @endIf
 
+
 ;@goto TitleScreen
 
 @hideAll
