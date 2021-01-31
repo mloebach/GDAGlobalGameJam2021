@@ -30,12 +30,16 @@ public class WikipageLogic : MonoBehaviour
     }
 
     public void SetData(Wikipage wikipage){
+        //Debug.Log("point0");
         _wikipage = wikipage;
-
+        //Debug.Log("point1");
         articleTitle.text = wikipage.Base.TitleString;
+        //Debug.Log("pointA");
         articleDesc.GetComponentInChildren<TMP_Text>().text = wikipage.Base.DescString;
+        //Debug.Log("pointB");
         //load naniscript
         articleImage.GetComponent<Image>().sprite = wikipage.Base.ArticleImage;
+        //Debug.Log("pointC");
     }
 
     // Update is called once per frame

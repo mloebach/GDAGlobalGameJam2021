@@ -43,6 +43,7 @@ MC: Is the one named:
 
 @stop
 
+@sfx Mouse1
 MC: It was printed in:
 
 @choice "1991" handler:ButtonArea pos:{choiceX},{choiceY1} set:DragonYear="1991"
@@ -52,6 +53,7 @@ MC: It was printed in:
 
 @stop
 
+@sfx Mouse1
 MC: It was printed in this Set:
 
 @choice "Meteor Strike" handler:ButtonArea pos:{choiceX},{choiceY1} set:DragonSet="Meteor Strike"
@@ -61,6 +63,7 @@ MC: It was printed in this Set:
 
 @stop
 
+@sfx Mouse1
 MC: It is in the Class of:
 
 @choice "Slime" handler:ButtonArea pos:{choiceX},{choiceY1} set:DragonClass="Slime"
@@ -70,6 +73,7 @@ MC: It is in the Class of:
 
 @stop
 
+@sfx Mouse1
 MC: Its position in the tier list is:
 
 @choice "S-Tier" handler:ButtonArea pos:{choiceX},{choiceY1} set:DragonTier="S-Tier"
@@ -79,6 +83,7 @@ MC: Its position in the tier list is:
 
 @stop
 
+@sfx Mouse1
 This card is the {DragonTier} {DragonClass} {DragonName} printed in the {DragonYear} {DragonSet} set.
 Is that right?
 
@@ -90,7 +95,7 @@ Is that right?
 #OneToTwo
 
 @hideChars
-
+@sfx Pause
 MC: aaaaand submited.
 
 MC: Next....
@@ -109,7 +114,7 @@ MC: This card named:
 @choice "Water Maiden" handler:ButtonArea pos:{choiceX},{choiceY4} set:MaidenName="Water Maiden"
 
 @stop
-
+@sfx Mouse1
 MC: It was printed in:
 
 @choice "1991" handler:ButtonArea pos:{choiceX},{choiceY1} set:MaidenYear="1991"
@@ -118,7 +123,7 @@ MC: It was printed in:
 @choice "1994" handler:ButtonArea pos:{choiceX},{choiceY4} set:MaidenYear="1994"
 
 @stop
-
+@sfx Mouse1
 MC: It was printed in this Set:
 
 @choice "Meteor Strike" handler:ButtonArea pos:{choiceX},{choiceY1} set:MaidenSet="Meteor Strike"
@@ -127,7 +132,7 @@ MC: It was printed in this Set:
 @choice "Dragon Crystal" handler:ButtonArea pos:{choiceX},{choiceY4} set:MaidenSet="Dragon Crystal"
 
 @stop
-
+@sfx Mouse1
 MC: It is in the Class of:
 
 @choice "Slime" handler:ButtonArea pos:{choiceX},{choiceY1} set:MaidenClass="Slime"
@@ -136,7 +141,7 @@ MC: It is in the Class of:
 @choice "Warlock" handler:ButtonArea pos:{choiceX},{choiceY4} set:MaidenClass="Warlock"
 
 @stop
-
+@sfx Mouse1
 MC: Its position in the tier list is:
 
 @choice "S-Tier" handler:ButtonArea pos:{choiceX},{choiceY1} set:MaidenTier="S-Tier"
@@ -145,7 +150,7 @@ MC: Its position in the tier list is:
 @choice "F-Tier" handler:ButtonArea pos:{choiceX},{choiceY4} set:MaidenTier="F-Tier"
 
 @stop
-
+@sfx Mouse1
 This card is the {MaidenTier} {MaidenClass} {MaidenName} printed in the {MaidenYear} {MaidenSet} set.
 Is that right?
 
@@ -158,6 +163,7 @@ Is that right?
 
 @hideChars
 
+@sfx Pause
 MC: Done.
 
 MC: Halfway there.
@@ -178,7 +184,7 @@ MC: This card named:
 @choice "Water Maiden" handler:ButtonArea pos:{choiceX},{choiceY4} set:WolfName="Water Maiden"
 
 @stop
-
+@sfx Mouse1
 MC: It was printed in:
 
 @choice "1991" handler:ButtonArea pos:{choiceX},{choiceY1} set:WolfYear="1991"
@@ -187,7 +193,7 @@ MC: It was printed in:
 @choice "1994" handler:ButtonArea pos:{choiceX},{choiceY4} set:WolfYear="1994"
 
 @stop
-
+@sfx Mouse1
 MC: It was printed in this Set:
 
 @choice "Meteor Strike" handler:ButtonArea pos:{choiceX},{choiceY1} set:WolfSet="Meteor Strike"
@@ -196,7 +202,7 @@ MC: It was printed in this Set:
 @choice "Dragon Crystal" handler:ButtonArea pos:{choiceX},{choiceY4} set:WolfSet="Dragon Crystal"
 
 @stop
-
+@sfx Mouse1
 MC: It is in the Class of:
 
 @choice "Slime" handler:ButtonArea pos:{choiceX},{choiceY1} set:WolfClass="Slime"
@@ -205,7 +211,7 @@ MC: It is in the Class of:
 @choice "Warlock" handler:ButtonArea pos:{choiceX},{choiceY4} set:WolfClass="Warlock"
 
 @stop
-
+@sfx Mouse1
 MC: Its position in the tier list is:
 
 @choice "S-Tier" handler:ButtonArea pos:{choiceX},{choiceY1} set:WolfTier="S-Tier"
@@ -214,7 +220,7 @@ MC: Its position in the tier list is:
 @choice "F-Tier" handler:ButtonArea pos:{choiceX},{choiceY4} set:WolfTier="F-Tier"
 
 @stop
-
+@sfx Mouse1
 This card is the {WolfTier} {WolfClass} {WolfName} printed in the {WolfYear} {WolfSet} set.
 Is that right?
 
@@ -225,7 +231,7 @@ Is that right?
 #ThreeToFour
 
 @hideChars
-
+@sfx Pause
 MC: Click.
 
 MC: Final Card. By process of elimination...
@@ -244,7 +250,7 @@ MC: This card named:
 @choice "Water Maiden" handler:ButtonArea pos:{choiceX},{choiceY4} set:FrogName="Water Maiden"
 
 @stop
-
+@sfx Mouse1
 MC: It was printed in:
 
 @choice "1991" handler:ButtonArea pos:{choiceX},{choiceY1} set:FrogYear="1991"
@@ -253,7 +259,7 @@ MC: It was printed in:
 @choice "1994" handler:ButtonArea pos:{choiceX},{choiceY4} set:FrogYear="1994"
 
 @stop
-
+@sfx Mouse1
 MC: It was printed in this Set:
 
 @choice "Meteor Strike" handler:ButtonArea pos:{choiceX},{choiceY1} set:FrogSet="Meteor Strike"
@@ -262,7 +268,7 @@ MC: It was printed in this Set:
 @choice "Dragon Crystal" handler:ButtonArea pos:{choiceX},{choiceY4} set:FrogSet="Dragon Crystal"
 
 @stop
-
+@sfx Mouse1
 MC: It is in the Class of:
 
 @choice "Slime" handler:ButtonArea pos:{choiceX},{choiceY1} set:FrogClass="Slime"
@@ -271,7 +277,7 @@ MC: It is in the Class of:
 @choice "Warlock" handler:ButtonArea pos:{choiceX},{choiceY4} set:FrogClass="Warlock"
 
 @stop
-
+@sfx Mouse1
 MC: Its position in the tier list is:
 
 @choice "S-Tier" handler:ButtonArea pos:{choiceX},{choiceY1} set:FrogTier="S-Tier"
@@ -280,7 +286,7 @@ MC: Its position in the tier list is:
 @choice "F-Tier" handler:ButtonArea pos:{choiceX},{choiceY4} set:FrogTier="F-Tier"
 
 @stop
-
+@sfx Mouse1
 This card is the {FrogTier} {FrogClass} {FrogName} printed in the {FrogYear} {FrogSet} set.
 Is that right?
 
@@ -290,7 +296,7 @@ Is that right?
 @stop
 
 @hideChars
-
+@sfx Pause
 MC: Aaaaand done.
 
 MC: All the pages are up.
@@ -302,6 +308,7 @@ MC: And noooow. We wait.
 @wait 1
 
 @back BlackBG.CloudReveal time:1.5
+@sfx Pause
 
 @wait 3
 

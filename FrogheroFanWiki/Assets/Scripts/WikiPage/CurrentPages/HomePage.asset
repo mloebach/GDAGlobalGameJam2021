@@ -13,12 +13,11 @@ MonoBehaviour:
   m_Name: HomePage
   m_EditorClassIdentifier: 
   titleString: Welcome to the Froghero Fan Wiki!
-  articleImage: {fileID: 21300000, guid: 1b32eeba3c2ac9947b27da73ae821cc1, type: 3}
-  descString: 'for international speakers, click on the text to hear a recording
-    in english!
-
-
-
-    lorem ipsum lorem ipsum'
+  articleImage: {fileID: 21300000, guid: 293012e1c6f9c9040af9177c9ae61a2e, type: 3}
+  descString: Welcome to the Froghero Fan Wiki! This wiki covers information such
+    as Launchpad's card game, the TV Show, and misc. other information. This fanpage
+    was originall written in Pondian, but has been graciously translated into English!
   naniArticle: StartPage
-  articleLinks: []
+  articleLinks:
+  - linkTitle: 
+    wikipageBase: {fileID: 0}

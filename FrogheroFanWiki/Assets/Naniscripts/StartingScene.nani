@@ -2,15 +2,129 @@
 
 @back SampleBG.Waterfall time:2
 
+@sfx Pause
+
 @wait 0.5
 
 @printer Chat 
 
-MC: just invested everything i own into FrogCoin
-Friend: woah
-MC: i found these confusing frog cards
-MC: i'm gonna be rich!
-Friend: ok bye
+@sfx TypeB
+MC: Hey.
+@sfx TypeA
+Friend: Hey! What's up.
+@sfx TypeA
+MC: Okay. So, you know Frogheroes?
+@sfx TypeB
+Friend: A bit?
+@sfx TypeA
+Friend: I watched a bit of the show as a kid when I was in vacation in Pondia.
+@sfx TypeA
+Friend: Why do you ask?
+@sfx TypeA
+MC: So. I was digging through my attic...
+@sfx TypeB
+MC: And I found these Froghero cards?
+@sfx TypeA
+Friend: Froghero had a card game?
+@sfx TypeB
+MC: Yeah. Apparently it has an active card collecting scene.
+@sfx TypeA
+Friend: Wow. How much do these cards cost?
+@sfx TypeB
+MC: Don't know. Let me look it up.
+@sfx TypeA
+MC: Apparently, they can go as high as...
+@sfx TypeB
+MC: ....
+@sfx TypeA
+MC: Forty thousand dollars...?
+@sfx TypeB
+Friend: HOLY COW
+@sfx TypeA
+Friend: Do you KNOW how many chocolate milkshakes that is?
+@sfx TypeA
+MC: I mean...I definitely want to sell them, but...
+@sfx TypeB
+MC: Uh, would you happen to know Pondian?
+@sfx TypeA
+Friend: Nope. Sorry!
+@sfx TypeB
+MC: Ah. I can't read a word of it...
+@sfx TypeA
+MC: But these cards don't have a word of English on them. Not one.
+@sfx TypeB
+Friend: Hmmmmmmmmm
+@sfx TypeA
+Friend: Know anything about the cards?
+@sfx TypeB
+MC: Let's see.
+@sfx TypeA
+MC: All of them have different cardbacks, and a different illustration.
+
+@sfx TypeA
+@char Card.Dragon pos:80,28 wait:false
+MC: One is a tough looking dragon...
+@wait 0.7
+@sfx TypeA
+@char Card.Magician pos:80,28 wait:false
+MC: One is a beautiful looking woman...
+@wait 0.7
+@sfx TypeB
+@char Card.Frog pos:80,28 wait:false
+MC: Another is a frog in armor...
+@wait 0.7
+@sfx TypeA
+@char Card.Werewolf pos:80,28 wait:false
+MC: And the last one is a werewolf of some sort?
+@wait 0.7
+@hideChars
+
+@sfx TypeB
+MC: I found a receipt with these too...
+@sfx TypeA
+MC: Their names in English are:
+
+@sfx TypeB
+MC: Water Maiden.
+@sfx TypeA
+MC: Dark Samurai.
+@sfx TypeB
+MC: World Ender K.
+@sfx TypeA
+MC: and Cyberbot.
+
+@sfx TypeB
+MC: I'm not sure which is which....
+@sfx TypeA
+MC: And there's a bunch of other stuff I'm gonna have to keep track of.
+@sfx TypeB
+MC: Like which set these were in? And the print year?
+
+@sfx TypeA
+Friend: Hmmm...
+@sfx TypeB
+Friend: The English Froghero localization was pretty shoddy. I'm not sure what I can take from that.
+
+@sfx TypeB
+MC: Am I out of luck?
+@sfx TypeB
+Friend: Well, I do have an idea.
+
+@sfx TypeA
+MC: ?
+
+@sfx TypeB
+Friend: There was an English wiki for Froghero. However, it's a bit abandonded.
+@sfx TypeA
+Friend: You could use that.
+
+@sfx TypeB
+MC: A fan wiki? I didn't even think of that!
+@sfx TypeA
+MC: Thanks, you're a life saver!
+
+@sfx TypeB
+Friend: No problem!
 
 @hidePrinter
 
@@ -24,20 +138,25 @@ Friend: ok bye
 
 ;@char MC
 
-MC: hmmmm....
-
-MC: i better study these froggy things if i want any chance of being RICH
-
-MC: let's see....there's a fan wiki....
+MC: Alright...
 
 MC: FrogHero.Wiki.Net.....
+
+MC: They've sent me a list of what they think the most relevant pages are, I'll take their word.
+
+MC: This shouldn't be too hard.
+
+MC: It's only playing cards. How difficult could this get?
 
 @hidePrinter
 ;hide MC
 
 @wait 2
+@sfx Error
 
 @back BlackBG.Shrink time:2
+
+@sfx Pause
 
 @unlock CG
 @unlock Tips

@@ -207,10 +207,10 @@ MonoBehaviour:
     Resources:
     - Name: MC/Default
       PathPrefix: CharacterAvatars
-      Guid: 806bb1b07200a6841ae5b7191a4c4840
+      Guid: 3497d9cb85fe6724face5339a620ba0d
     - Name: Friend/Default
       PathPrefix: CharacterAvatars
-      Guid: d15c164ea3cc93d42988005729afd1ff
+      Guid: ec5c27dc73ed2bd468d5e8d26736dc1b
   - Id: Characters/9eff6b17-d853-430c-82a7-075cd78df75b
     Resources:
     - Name: Magician
@@ -230,3 +230,26 @@ MonoBehaviour:
     - Name: 
       PathPrefix: Unlockables
       Guid: 
+  - Id: Audio
+    Resources:
+    - Name: Error
+      PathPrefix: Audio
+      Guid: 6eecafa82b40c344a81bec3922884efe
+    - Name: TypeA
+      PathPrefix: Audio
+      Guid: 78ffeb99f9764cd40abf4567d42a2812
+    - Name: TypeB
+      PathPrefix: Audio
+      Guid: eedf913c324349a48ad8fac55317c406
+    - Name: Mouse1
+      PathPrefix: Audio
+      Guid: 87827452762e3ec478a2968e48e21ac6
+    - Name: Mouse2
+      PathPrefix: Audio
+      Guid: 050a1c7651f37fc40ab806ad9eba1238
+    - Name: Pause
+      PathPrefix: Audio
+      Guid: a9423bf97e84b744096195a07d67d6ec
+    - Name: Unpause
+      PathPrefix: Audio
+      Guid: a734cc7d226533e428b340d9a5a1c2f3

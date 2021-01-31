@@ -51,8 +51,8 @@
 @if FinalPayout>=2000
     @set WolfPayout=WolfPayout+2000
     @set MaidenPayout=MaidenPayout+2000
-    @set DragaonPayout=DragonPayout+2000
-    @set FrogWolfPayout=FrogPayout+2000
+    @set DragonPayout=DragonPayout+2000
+    @set FrogPayout=FrogPayout+2000
     @set FinalPayout=FinalPayout+8000
 @endif
 
@@ -62,19 +62,104 @@
 
 One week later...
 
+@sfx Unpause
+
 @printer Chat 
 
-MC: Dragon: {DragonPayout}
+@set WolfPayout=0.01 if:WolfPayout=0
+@set FrogPayout=0.03 if:FrogLayout=0
+@set MaidenPayout=0.04 if:MaidenPayout=0
+@set DragonPayout=0.02 if:DragonPayout=0
+@set FinalPayout=0.10 if:FinalPayout=0
 
-MC: Wolf: {WolfPayout}
+@sfx TypeA
+Friend: Sooooo....
+@sfx TypeB
+Friend: How'd it goooo?
+@sfx TypeA
+MC: I've sold all of the cards.
+@sfx TypeB
+MC: The dragon was...${DragonPayout}
+@sfx TypeA
+MC: The wolf was...${WolfPayout}
+@sfx TypeB
+MC: The princess was...${MaidenPayout}
+@sfx TypeA
+MC: And the frog was...${FrogPayout}
+@sfx TypeB
+MC: That's a total payout of ${FinalPayout}.
 
-MC: Maiden: {MaidenPayout}
-
-MC: Frog: {FrogPayout}
-
-MC: Total Payout: {FinalPayout}
-
-Friend: Bummer.
+@if FinalPayout<=50
+    @sfx TypeA
+    Friend: Seriously?
+    @sfx TypeB
+    Friend: That's a bummer...
+    MC: Yeah...
+    @sfx TypeA
+    MC: I think I gave away false information about the cards.
+    @sfx TypeB
+    Friend: Oh well. Better luck next time?
+@elseIf FinalPayout<=150 
+    @sfx TypeB
+    Friend: Hmm...
+    @sfx TypeA
+    Friend: That's not bad? But could be better.
+    @sfx TypeB
+    MC: Yeah...
+    @sfx TypeA
+    MC: I think my info on the cards coulda been better.
+    @sfx TypeB
+    Friend: Oh well. Better luck next time?
+@elseIf FinalPayout<=500
+    @sfx TypeA
+    Friend: Hey! That's pretty good.
+    @sfx TypeB
+    Friend: You must have gotten a big seller on one of those cards.
+    @sfx TypeA
+    MC: Yeah...
+    @sfx TypeB
+    MC: I think I could have done better, but I'm okay with this.
+    @sfx TypeA
+    Friend: Oh well. Better luck next time?
+@elseIf FinalPayout<=1200
+    @sfx TypeA
+    Friend: WOW!
+    @sfx TypeB
+    MC: I know, right?
+    @sfx TypeA
+    Friend:  That's a lot of milkshakes! What are you planning to spend it on?
+    @sfx TypeB
+    MC: Tuition.
+    @sfx TypeA
+    Friend: Smart, smart. Congratulations!
+    @sfx TypeA
+    MC: Hey, I have a question.
+    @sfx TypeB
+    Friend: ...yeah?
+    @sfx TypeA
+    MC: What is Frog Heroes even about...?
+@else
+    @sfx TypeA
+    Friend: oh my god oh my god oh my god
+    @sfx TypeB
+    Friend: you could buy like
+    @sfx TypeA
+    Friend: a HOUSE with that money
+    @sfx TypeB
+    MC: I know, right?
+    @sfx TypeA
+    Friend:  What are you planning to spend it on? This is a lot of power for one person.
+    @sfx TypeB
+    MC: Tuition.
+    @sfx TypeA
+    Friend: Smart, smart. Congratulations!
+    @sfx TypeB
+    MC: Hey, I have a question.
+    @sfx TypeA
+    Friend: ...yeah?
+    @sfx TypeB
+    MC: What is Frog Heroes even about...?
+@endIf
 
 ;@goto TitleScreen
 
